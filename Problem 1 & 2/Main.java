@@ -32,8 +32,8 @@ public class Main {
 	//IMPLEMENT
 	public static List<Staff> combine(List<Staff> staff, List<Teacher> teachers) {
 		List<Staff> combined = new ArrayList<>(staff);
-	    combined.addAll(teachers);
-	    return combined;
+	    	combined.addAll(teachers);
+	   	return combined;
 	}
 
 }
