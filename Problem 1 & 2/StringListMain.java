@@ -9,7 +9,7 @@ public class StringListMain {
 		l.add(new Person("Goldman", "Yellow", 25));
 		l.add(new Person("Yeddler", "Green",  40));
 		
-		System.out.println(l.searchLast(new Person("Goldman", "Tom", 35)));
+		System.out.println(l.searchLast(new Person("Goldman")));
 		
 	}
 
