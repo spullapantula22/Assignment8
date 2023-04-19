@@ -8,6 +8,10 @@ class Person {
     firstName = first;
     age = a;
   }
+  public Person(String lastName) {
+	  
+	  this.lastName = lastName;
+  }
   // --------------------------------------------------------------
   public String getLast() // get last name
   {
